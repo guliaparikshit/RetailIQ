@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: retailiq-intelligence
+    runtime: static
+    buildCommand: echo "Publishing RetailIQ static research dashboard"
+    staticPublishPath: .
